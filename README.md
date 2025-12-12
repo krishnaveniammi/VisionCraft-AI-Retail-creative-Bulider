@@ -1,5 +1,4 @@
 VisionCraft – AI-Powered Retail Creative Builder
-
 VisionCraft is an AI-powered creative builder that helps advertisers instantly generate high-quality, retailer-compliant marketing creatives. Users can upload product images, describe the desired design style, and let the AI generate polished, ready-to-publish ads across multiple formats — without any design experience required.
 
 🚀 Features
@@ -43,8 +42,9 @@ Google Gemini Generative AI (@google/genai)
 
 Vite (bundler/build)
 
-Netlify / Vercel (deployment)
+ Vercel (deployment)
 
+ 
 📁 Project Structure
 src/
  ├── App.tsx
@@ -60,6 +60,7 @@ dist/            # Production output
 package.json
 tsconfig.json
 vite.config.ts
+
 
 ⚙️ Running the Project Locally
 1. Clone the repository
