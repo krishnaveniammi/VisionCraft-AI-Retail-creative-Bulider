@@ -1,97 +1,62 @@
-VisionCraft – AI-Powered Retail Creative Builder
-VisionCraft is an AI-powered creative builder that helps advertisers instantly generate high-quality, retailer-compliant marketing creatives. Users can upload product images, describe the desired design style, and let the AI generate polished, ready-to-publish ads across multiple formats — without any design experience required.
+🚀 VisionCraft – AI-Powered Retail Creative Builder
 
-🚀 Features
+VisionCraft is a modern web application that generates professional, retailer-compliant ad creatives using AI. Built with a fast and scalable web framework stack, it enables users to upload product images, describe their design vision, and instantly receive polished marketing creatives ready for social media and retail platforms.
 
-🔹 AI-generated ad layouts and backgrounds
+🧩 Tech Stack (Web Framework)
 
-🔹 Automatic brand & retailer compliance checks
+React + TypeScript – Component-based, scalable UI framework
 
-🔹 Supports multiple aspect ratios (1:1, 9:16, 16:9)
+Vite – Lightning-fast build tool
 
-🔹 Simple, intuitive UI built with React + Tailwind
+Tailwind CSS – Modern utility-first styling
 
-🔹 Downloadable creative outputs (<500KB)
+Google Gemini AI – Creative layout + background generation
 
-🔹 Fast, accessible, and zero design skills needed
+Netlify / Vercel – Deployment & hosting
 
-🎯 Problem Statement
+✨ Key Features
 
-Small advertisers struggle to create professional and compliant ad creatives due to limited design resources. Existing design tools do not validate retailer guidelines, leading to campaign rejections and lower ROI.
-VisionCraft solves this by automating the entire creative workflow using AI, ensuring compliance, speed, and quality.
+Upload product photos & generate AI-powered creatives
 
-🧠 How It Works
+Multiple ad formats (1:1, 9:16, etc.)
 
-Upload product image (and optional logo)
+Clean, responsive UI
 
-Enter a creative description
+Built-in compliance-friendly layouts
 
-Select output size
+Downloadable final creative output
 
-AI generates a retail-ready creative
+📦 Installation
+git clone https://github.com/krishnaveniammi/VisionCraft-AI-Retail-creative-Builder.git
+cd VisionCraft-AI-Retail-creative-Builder
+npm install
+npm run dev
 
-Download and publish
 
-🛠️ Tech Stack
+Add Gemini API key in .env.local:
 
-React + TypeScript
+VITE_API_KEY=your_api_key
 
-Tailwind CSS
+🌐 Deployment
 
-Google Gemini Generative AI (@google/genai)
+Build for production:
 
-Vite (bundler/build)
+npm run build
 
- Vercel (deployment)
 
- 
-📁 Project Structure
+Deploy the dist folder using Netlify or Vercel.
+
+🛠️ Project Structure
 src/
  ├── App.tsx
  ├── index.tsx
  ├── components/
- │     └── ImageUploader.tsx
  ├── services/
- │     └── geminiService.ts
  ├── types.ts
- ├── assets/
 public/
-dist/            # Production output
-package.json
-tsconfig.json
-vite.config.ts
+dist/
 
-
-⚙️ Running the Project Locally
-1. Clone the repository
-git clone https://github.com/krishnaveniammi/VisionCraft-AI-Retail-creative-Builder.git
-cd VisionCraft-AI-Retail-creative-Builder
-
-2. Install dependencies
-npm install
-
-3. Add Gemini API key
-
-Create a .env.local file:
-
-VITE_API_KEY=your_gemini_api_key
-
-4. Run development server
-npm run dev
-
-5. Build for production
-npm run build
-
-🌐 Live Demo
-
-🔗 Add your Netlify or Vercel link here once deployed
-Example: https://vision-craft-ai-retail-creative-bul-three.vercel.app/
-
-🏆 Hackathon Context
-
-Built for the Tesco Hackathon, VisionCraft empowers sellers to generate professional, consistent, and retailer-approved creatives rapidly — supporting scalable digital advertising for all merchants.
-
-👥 Team
+👩‍💻 Team
 
 Harika Naga Sai Kundurthi
 
@@ -99,6 +64,6 @@ Krishnaveni Ammisetti
 
 Manogna Charishma
 
-📄 License
+⭐ Support
 
-This project is developed for educational and hackathon use.
+If you like this project, consider giving it a ⭐ on GitHub!
